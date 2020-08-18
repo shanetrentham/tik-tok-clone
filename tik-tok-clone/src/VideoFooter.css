@@ -10,15 +10,42 @@
       flex: 1;
   }
 
+  .videoFooter__text > p {
+      padding-bottom: 20px;
+  }
+
   .videoFooter__record {
       animation: spinTheRecord infinite 5s linear;
       height: 50px;
       filter: invert(1);
+      position: absolute;
+      bottom: 0;
+      right: 0;
   }
 
   .videoFooter__ticker {
       display: flex;
 
+  }
+
+  .videoFooter__icon {
+      position: absolute;
+  }
+
+  .videoFooter__ticker > .ticker {
+      height: fit-content;
+      margin-left: 0px;
+      width: 60%;
+  }
+
+
+
+  .videoFooter__text > h3 {
+      padding-bottom: 20px;
+  }
+
+  .videoFooter__ticker h1 {
+      padding-top: 7px;
   }
 
   @keyframes spinTheRecord {
